@@ -1,0 +1,6 @@
+[
+  { "caseName": "正确账号密码", "username": "valid_user", "password": "Valid@123", "expect_success": true },
+  { "caseName": "密码错误", "username": "valid_user", "password": "wrong_pass", "expect_success": false },
+  { "caseName": "账号不存在", "username": "no_such_user", "password": "Valid@123", "expect_success": false },
+  { "caseName": "空密码", "username": "valid_user", "password": "", "expect_success": false }
+]
